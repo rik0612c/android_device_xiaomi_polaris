@@ -9,6 +9,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/polaris/polaris-vendor.mk)
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080

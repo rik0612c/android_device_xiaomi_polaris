@@ -3,3 +3,7 @@ persist.camera.sat.fallback.dist=45
 persist.camera.sat.fallback.dist.d=5
 persist.camera.sat.fallback.luxindex=405
 persist.camera.sat.fallback.lux.d=20
+
+# CrDroid stuffs
+ro.surface_flinger.supports_background_blur=1
+ro.launcher.blur.appLaunch=1
